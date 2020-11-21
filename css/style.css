@@ -1,0 +1,45 @@
+a:hover { color: #cc0000 }
+a img { border: none; }
+td { font-size: 9pt; font-family: verdana,arial }
+body { margin-top: 0px; margin-bottom: 0px; margin-right: 0px }
+big { font-weight: bold; font-size: 14pt; text-transform: uppercase; font-family: times new roman cyr }
+h2 { font-size: 14pt; vertical-align: 0px; text-transform: uppercase; color: #000000; font-family: times new roman cyr; letter-spacing: 0px }
+h3 { font-weight: bold; font-size: 14pt; color: #003366; font-family: times new roman cyr }
+.t1 { border-right: 0px; border-top: 0px; border-left: 0px; width: 100%; border-bottom: 0px; background-color: #275b61 }
+.t2 { border-right: 0px; border-top: 0px; border-left: 0px; width: 100%; border-bottom: 0px; background-color: #87a3a6 }
+.t3 { border-right: 0px; border-top: 0px; border-left: 0px; width: 100%; border-bottom: 0px; background-color: #cbd8d9 }
+.body { background-color: #e6eff0 }
+body.main { margin-top: 2px; margin-left: 10px; margin-right: 10px; background-color: #ffffff }
+body.document { margin-top: 2px; margin-left: 180px; margin-right: 180px; background-color: #ffffff }
+a.smalllinkon {	font-weight: bold; font-size: 10px; color: #cc0000; font-family: verdana; text-decoration: none }
+a.smalllinkoff { font-weight: bold; font-size: 10px; color: #666666; font-family: verdana; text-decoration: none }
+a.link1 { font-weight: bold; font-size: 11px; font-family: verdana; text-decoration: none }
+a.link2 { font-size: 11px; font-family: verdana; text-decoration: none }
+a.biglink1 { font-weight: bold; font-size: 12px; font-family: verdana; text-decoration: none }
+a.biglink2 { font-size: 12px; font-family: verdana; text-decoration: none }
+a.linkmenu { font-weight: bold; font-size: 10px; color: #363638; font-family: verdana; text-decoration: none }
+a.linkmenuon { font-weight: bold; font-size: 10px; color: #ffffff; font-family: verdana; text-decoration: none }
+td.leftmenuoff { background: url(common/left_menu_back.gif) repeat-y }
+td.leftmenuon { background: url(common/left_menu_back_.gif) repeat-y }
+font.title { font-weight: bold; font-size: 12px; color: #ffffff; font-family: verdana }
+font.text10 { font-weight: normal; font-size: 11px; font-family: verdana }
+font.boldtext10 { font-weight: bold; font-size: 11px; font-family: verdana }
+font.text11 { font-weight: normal; font-size: 12px; font-family: verdana }
+font.boldtext11 { font-weight: bold; font-size: 12px; font-family: verdana }
+table.testborder { border-right: #000000 1px solid; border-top: #000000 1px solid; border-left: #000000 1px solid; border-bottom: #000000 1px solid }
+td.topicmenu { border-right: #7c8393 1px solid; padding-right: 5px; border-top: #7c8393 1px solid; padding-left: 5px; padding-bottom: 3px; border-left: #7c8393 1px solid; padding-top: 3px; border-bottom: medium none; background-color: #f7fcff }
+td.topicmenulight { border-right: #7c8393 1px solid; padding-right: 5px; border-top: #7c8393 1px solid; padding-left: 5px; padding-bottom: 3px; border-left: #7c8393 1px solid; padding-top: 3px; border-bottom: medium none; background-color: #a7df13 }
+table.shadow { filter: progid:dximagetransform.microsoft.shadow(color='#666666', direction=135, strength=3) }
+
+#content{font-size: 1.0em; padding: 10px 10px 10px 10px; background-color: white; margin:0 0 0 10px;}
+.uv-nal{text-align:center; font-size: 1.4em; font-weight: bold;}
+.text-inside{font-size: 1.0em; text-align:justify; padding: 5px 0 0 0; margin:10px 20px 0 20px; text-indent:40px;}
+.text-ab{margin:5px 0 0 0;}
+.text-att{margin:20px 0 40px 0; color:#ff0000;}
+
+.serv{margin:0 0 200px 0; text-align:center;}
+.serv table{width: 80%; text-align:center; margin:0 auto;}
+.serv td{text-align:center;}
+.serv-text{font-size: 1.0em; padding: 5px 0 0 0; margin:10px 0 0 0; font-weight: bold;}
+
+.envd img{opacity:0.3; -moz-opacity:0.3; filter:alpha(opacity=50);}

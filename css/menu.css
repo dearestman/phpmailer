@@ -1,0 +1,174 @@
+/* ----------Глобальные настройки---------------------------- */
+
+/* Основные настройки меню */
+.hmenu
+{
+	height: 52px;
+	width: auto;
+	border:none;
+}
+
+/* Все ссылки в меню */
+.hmenu a
+{
+	z-index: 10;
+	display: table-cell;
+	text-decoration: none;
+	width: 203px;
+	padding: 5px 11px 6px 26px;
+	color: #336699;
+	font: 11px Tahoma;
+	vertical-align:middle;
+	text-align: left;
+}
+
+/* ----------Первый уровень---------------------------- */
+
+
+/* Разделитель первого уровня */
+.hmenu td.td_delim
+{
+	width:2px;
+	background: url(menu_del.png) no-repeat;
+}
+
+/* Выделенный (текущий) элемент первого уровня, либо наведение на элемент первого уровня */
+.hmenu td.current, .hmenu td:hover
+{
+	background: url(menu_sel.png) repeat-x;
+}
+
+
+/* Настройки ячейки меню первого уровня */
+.hmenu td
+{
+	margin: 0px;
+	padding: 0px;
+	background: url(menu_bg0.png) repeat-x;
+	overflow:hidden;
+	border:none;
+	vertical-align:middle;
+	text-align:center;
+}
+
+/* Ссыкла ячейки меню первого уровня */
+.hmenu td > a
+{
+	height: 50px;
+	width: auto;
+	color:White;
+	text-align: center;
+	padding: 0px 5px 5px 5px;
+	font: 12px Tahoma;
+}
+
+/* Эффект выпадения второго уровня */
+.hmenu td.left:hover > div.m_div_1
+{
+	display: block;
+	margin:0px;
+	top:50px;
+}
+
+.hmenu td.last:hover > div.m_div_1
+{
+	display: block;
+	margin:0px;
+	top:50px;
+	right:0px;
+}
+
+
+.hmenu td.right:hover > div.m_div_1
+{
+	display: block;
+	margin:0px;
+	top:50px;
+}
+
+
+/* ----------Остальные уровни ---------------------------- */
+
+/* Эффект выпадения остальных уровней */
+.hmenu li.right:hover > div
+{
+	display: block;
+	margin: -40px 0px 0px 230px;
+}
+
+.hmenu li.left:hover > div
+{
+	display: block;
+	margin: -40px 0px 0px -230px;
+}
+
+
+/* Выпадающее подменю */
+.hmenu ul {
+	margin:0 3px;
+	height:100%;
+	background-color:#ffffff;
+}
+
+.hmenu div.m_div_3 {
+	width:245px;
+	background:transparent url(menu_bor.png) repeat-y;
+}
+
+.hmenu div.m_div_2 {
+	width:245px;
+	padding-top:3px;
+	background:transparent url(menu_bos.png) no-repeat 0 0;
+}
+
+.hmenu div.m_div_1
+{
+	list-style: none;
+	position: absolute;
+	z-index: 11;
+	display:none;
+	width: 245px;
+	padding-bottom:3px;
+	background:transparent url(menu_bot.png) no-repeat left bottom;
+}
+
+*+html .hmenu div.m_div_1 {
+	margin-left:-50px;
+}
+
+.hmenu div div {z-index: 12;}
+.hmenu div div div {z-index: 13;}
+
+/*
+.hmenu td > ul > li {
+	position:#ffffff;
+}
+*/
+
+/* Основные настройки элемента меню (размеры, шрифты, обтекание) */
+.hmenu li.li_delim {
+	width: 239px;
+	display:block;
+	height:1px;
+	border-bottom:1px solid #bfbfbf;
+}
+
+.hmenu li
+{
+	position: relative;
+	margin:0;
+	padding:0;
+	display: block;
+	width: 240px;
+}
+
+
+/* Выделенный элемент или наведение на него */
+.hmenu li.current, .hmenu li.left:hover, .hmenu li.right:hover {
+	background-color:#3b77b2;
+}
+.hmenu li.current > a, .hmenu li:hover > a {color:White;}
+
+/* значек наличия дочерних объектов */
+.hmenu li.parent > a			{	background: url(li000000.gif) no-repeat 15px;}
+.hmenu li.parent > a:hover	{	background: url(li_neg00.gif) no-repeat 15px;}
